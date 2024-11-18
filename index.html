@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Arte</title>
+<link rel="stylesheet" type="text/css" href="css.css"/>
+<link rel="stylesheet" type="text/css" href="iconos/iconos/styles.css"/>
+<style>
+
+    
+    
+    html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,pre,code,address,form,fieldset,div,figure{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    border: none;
+   
+}
+    
+    
+    #div_de_nav nav ul li:hover a{
+        color: #55ce41;
+        transition: 0.2s;
+    }
+    
+    #div_de_nav nav ul li:not(:hover) a{
+        color: #fff;
+        transition: 0.2s;
+    }
+    
+    
+    #div_de_nav nav ul li a{
+        font-family: arial;
+    }
+    
+    img{
+        margin: 0;
+    }
+    
+    header{
+        width: 100%;
+        height: 85.8px;
+        background: #000;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    
+    #primer_div_de_header figure a img{
+        width: 190px;
+        
+    }
+    
+    
+    #li_de_inicio a{
+        color: green  !important;
+        
+    }
+
+    
+    
+    #div_de_nav{
+        width: 950px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 200px;
+    }
+    
+    #div_de_nav nav ul{
+        display: flex;
+        list-style: none;
+        margin-right: 60px;
+        
+    }
+    
+    #div_de_nav nav ul li{
+        margin-left: 25px;
+    }
+    
+    #div_de_nav nav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        font-size: 12px;
+        
+    }
+    
+    
+    
+    /*fin de la seccion de header*/
+    
+    
+    /*inicio de la primera seccion*/
+    
+    
+    #primera_seccion{
+        display: flex;
+        justify-content: center;
+        
+        box-shadow: 0px 0px 30px #000;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    
+    #img_frutas_blur{
+        width: 100%;
+        height: 606px;    ;
+        background: url(img/frutas.jpg) no-repeat;
+        background-size: cover;
+        filter: blur(3px);
+        
+    }
+    
+    
+    #div_de_flechas_1{
+        width: 100%;
+        
+        position: absolute;
+        display: flex;
+        justify-content: space-between !important;
+        flex-direction: row;
+        
+    }
+    
+    #div_de_flechas_1 div{
+        width: 60px;
+        height: 60px;
+        background: rgba(0,0,0,0.5);
+        margin: 0 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 30px;
+    }
+    
+    #div_de_flechas_1 div:hover{
+        background: #000;
+        cursor: pointer;
+    }
+    
+    
+    /*aqui termina la primera seccion*/
+    
+    
+    /*aqui empieza la segunda seccion*/
+    
+    
+    #segunda_seccion{
+        height: 400px;
+    }
+    
+    #div_de_los_dos_h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    
+    
+    #primer_h1{
+        font-size: 33px;
+    }
+    
+    
+    #segundo_h1{
+        font-size: 27px;
+        margin-top: 10px;
+    }
+    
+    #div_de_los_dos_h1 h1{
+        text-align: center;
+        
+        font-family: Arial;
+    }
+    
+    
+    
+    
+    #primer_div_de_la_segunda_seccion{
+        margin-top: 70px;
+    }
+    
+    
+    #div_de_logo_grande{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    
+    
+    
+    
+    /*aqui termina la segunda seccion*/
+    
+    /*inicio de la tercera seccion*/
+    
+    
+    #tercera_seccion{
+        margin-bottom: 60px;
+    }
+    
+    #primer_div_de_la_tercera_seccion{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .bloques_tercera_seccion{
+        width: 373px;
+        height: 492px;
+        background: red;
+        margin-right: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bloques_tercera_seccion figure img{
+        width: 140px;
+        color: #000;
+    }
+    
+    
+    #bolsa{
+        width: 230px;
+    }
+    
+    .bloques_tercera_seccion p{
+        text-align:left;
+    }
+    
+    
+    #ultimo_bloque_tercera_seccion{
+        margin: 0;
+    }
+    
+    .divs_de_ps{
+        width: 276px;
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .divs_de_ps p{
+        color: #fff;
+        font-family: Arial;
+    }
+    
+    .primeros_p{
+        font-size: 30px;
+        font-family: Arial;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    
+    /*final de la tercera secicon*/
+    
+    
+    
+    /*aqui inicia la seccion cuatro*/
+    
+    
+    #div_inmediato_a_cuarta_seccion{
+        width: 100%;
+        height: 201px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    
+    #div_que_engloba_a_p_de_titulo_cuarta_seccion p{
+        font-size: 33px;
+        font-family: Arial;
+        
+    }
+    
+    
+    #div_que_engloba_a_los_div_de_numeros{
+        width: 100%;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    #div_que_engloba_a_los_div_de_numeros div{
+        
+    }
+    
+    #div_que_engloba_a_los_div_de_numeros div p{
+        color: #55ce41;
+        font-size: 60px;
+        font-family: arial;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+    
+    #div_que_engloba_a_los_div_de_numeros div div p{
+        color: #000;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    
+    #div_de_18{
+        margin-left: 180px;
+    }
+    
+    #div_de_calidad{
+        margin-right: 180px;
+    }
+    
+    /*aqui termina la cuarta seccion*/ 
+    
+    /*aqui comienza la quinta seccion*/
+    
+    
+    
+    #div_global_de_quinta_seccion{
+        width: 100%;
+        height: 270px;
+        background: grey;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    
+    
+    #div_de_figure_tienda_pequeña figure img{
+        width: 39px;
+        margin-bottom: 60px;
+        color: #55ce41;
+    }
+    
+    
+    #div_de_p_de_trabaja_en_cash p{
+        font-size: 50px;
+        font-family: Arial;
+        color: #55ce41;
+        font-weight: bold;
+    }
+    
+    
+    /*aqui termina la quinta seccion*/
+    
+    
+    /*aqui empieza la sexta seccion*/
+    
+    
+    #sexta_seccion{
+        width: 100%;
+        height: 256px;
+        display: flex;
+        justify-content: center;
+        background: #262626;
+    }
+    
+    
+    
+    #div_inmediato_a_sexta_seccion{
+        width: 1169px;
+        height: 256px;
+        background: #262626;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    
+    
+    .divs_que_engloba_a_las_partes{
+        width: 274px;
+        height: 110px;
+        color: #fff;
+        font-family: arial;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    
+    
+    .titulo_principal{
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    
+    #div_que_engloba_a_buscar input{
+        border: none;
+        width: 200px;
+        height: 43px;
+        padding: 10px;
+    }
+    
+	#div_que_engloba_a_buscar input:focus{
+		outline: none;
+	}
+    
+    #div_que_engloba_a_buscar button{
+        width: 68px;
+        border: none;
+        height: 43px;
+        margin: -4px;
+        background: #53bb3e;
+        font-family: arial;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    /*aqui termina la sexta seccion*/
+    
+    
+    /*aqui empieza el footer*/
+    
+    footer div{
+        width: 1005;
+        height: 88px;
+        background: #000;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: #fff;
+        
+    }
+    
+    footer div p{
+        width: 473px;
+        margin-left: 90px;
+        font-size: 15px;
+    }
+    /*qui termina el footer*/
+</style>
+
+</head>
+<body> 
+
+
+<header>
+    <div id="primer_div_de_header">
+        <figure>
+            <a href="">
+                <img src="img/logo.jpg">
+                
+            </a>
+        </figure>
+    </div>
+    <div id="div_de_nav">
+        <nav>
+            <ul>
+                <li id="li_de_inicio">
+                    <a id="a_de_inicio" href="index.html">
+                        inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        quienes somos
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        secciones
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        nuestras tiendas
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        proximas aperturas
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        curriculum
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        noticias 
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        contacto
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="primera_seccion">
+    <div id="img_frutas_blur">
+        
+    </div>
+    <div id="div_de_flechas_1">
+        <div id="primera_flecha">
+            &#60;
+        </div>
+        <div>
+            &#62;
+        </div>
+    </div>
+    
+</section>
+<section id="segunda_seccion">
+    <div id="primer_div_de_la_segunda_seccion">
+        <div id="div_de_los_dos_h1">
+            <h1 id="primer_h1">
+                En Family Cash tenemos una amplia oferta
+            </h1>
+            <h1 id="segundo_h1">
+                Accede a nuestras secciones y descúbrela
+
+            </h1>
+        </div>
+        <div id="div_de_logo_grande">
+            <figure>
+                <img src="img/logo_grande.png">
+            </figure>
+        </div>
+    </div>
+</section>
+<section id="tercera_seccion">
+    <div id="primer_div_de_la_tercera_seccion">
+        <div class="bloques_tercera_seccion">
+            <figure>
+                <img src="img/carrito.png">
+                
+            </figure>
+            <div class="divs_de_ps">
+                <p class="primeros_p">
+                    Conózcanos
+                </p>
+                <p>
+                    Ofrecemos una experiencia de compra sencilla y cómoda, con artículos de gran calidad y diversidad de marcas, pero con precios más que competitivos durante todo el año.
+                </p>
+            </div>
+        </div>
+        <div class="bloques_tercera_seccion">
+            <figure>
+                <img id="bolsa" src="img/bolsa_de_comida.png">
+                
+            </figure>
+            <div class="divs_de_ps">
+                <p class="primeros_p">
+                    Nuestras Secciones
+                </p>
+                <p>
+                    En las tiendas Family Cash encontrarás todas las marcas de alimentación a precios muy reducidos. Alimentación, bazar y productos frescos.
+                </p>
+            </div>
+        </div>
+        <div id="ultimo_bloque_tercera_seccion" class="bloques_tercera_seccion">
+            <figure>
+                <img src="img/tienda.png">
+                
+            </figure>
+            <div class="divs_de_ps">
+                <p class="primeros_p">
+                    Nuestras Tiendas
+                </p>
+                <p>
+                    Conoce las ubicaciones de nuestras tiendas. Desde nuestro primer establecimiento en Xàtiva, hasta Torrente, Ontinyent, Museros y L’Alqueria de la Comtessa.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="cuarta_seccion">
+    <div id="div_inmediato_a_cuarta_seccion">
+        <div id="div_que_engloba_a_p_de_titulo_cuarta_seccion">
+            <p>
+                ¿Por qué debe comprar en Family Cash?
+            </p>
+        </div>
+        <div id="div_que_engloba_a_los_div_de_numeros">
+            <div id="div_de_18">
+                <p>
+                    18
+                </p>
+                <div>
+                    <p>
+                        Tiendas
+                    </p>
+                </div>
+            </div>
+            <div>
+                <p>
+                    +1462
+                </p>
+                <div>
+                    <p>
+                        Empleados
+                    </p>
+                </div>
+            </div>
+            <div>
+                <p>
+                    100%
+                </p>
+                <div>
+                    <p>
+                        Clientes Satisfechos
+                    </p>
+                </div>
+            </div>
+            <div id="div_de_calidad">
+                <p>
+                    100%
+                </p>
+                <div>
+                    <p>
+                        Calidad
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="quinta_seccion">
+   <div id="div_global_de_quinta_seccion">
+       
+   
+    <div id="div_de_figure_tienda_pequeña">
+        <figure>
+            <img src="img/tienda.png">
+        </figure>
+    </div>
+    <div id="div_de_p_de_trabaja_en_cash">
+        <p>
+            Trabaja en Family Cash
+        </p>
+    </div>
+    </div>
+</section>
+<section id="sexta_seccion">
+    <div id="div_inmediato_a_sexta_seccion">
+        <div class="divs_que_engloba_a_las_partes">
+            <div>
+                <p class="titulo_principal">
+                    TIENDAS FAMILY CASH
+                </p>
+            </div>
+            <div>
+                <p>
+                    Pinche para ver todas nuestras tiendas
+                </p>
+            </div>
+        </div>
+        <div class="divs_que_engloba_a_las_partes">
+            <div>
+                <p class="titulo_principal">
+                    MAPA WEB
+                </p>
+            </div>
+            <div>
+                <p>
+                    Inicio
+                </p>
+                <p>
+                    Nuestras tiendas
+                </p>
+                <p>
+                    secciones
+                </p>
+                <p>
+                   Curriculum 
+                </p>
+                <p>
+                    Contacto
+                </p>
+            </div>
+        </div>
+        <div class="divs_que_engloba_a_las_partes">
+            <div>
+                <p class="titulo_principal">
+                    SECCIONES – DEPARTAMENTOS
+                </p>
+            </div>
+            <div>
+                <p>
+                    Alimentos frescos
+                </p>
+                <p>
+                    Bazar y menaje
+                </p>
+                <p>
+                   Alimentacion 
+                </p>
+            </div>
+        </div>
+        <div class="divs_que_engloba_a_las_partes">
+            <div>
+                <p class="titulo_principal">
+                    BUSCAR EN LA WEB
+                </p>
+            </div>
+            <div id="div_que_engloba_a_buscar">
+                <input type="search" placeholder="Search...">
+                <button>
+                    <p>
+                        Search
+                    </p>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div>
+        <p>
+            © 2020 Family Cash. Todos los derechos reservados. | Aviso Legal | Protección de Datos | Desarrollo Web Innovamedia
+        </p>
+    </div>
+</footer>
+</body>
+</html>
